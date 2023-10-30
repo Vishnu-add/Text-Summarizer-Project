@@ -1,0 +1,9 @@
+artifacts_root: artifacts  # creates a folder and all components are stored in artifacts
+# data related configuration : if you need some pth or url those can be stored in config.yaml and use it later on
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/summarizer-data.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artificats/data_ingestion
